@@ -1,0 +1,15 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            // 只转译我们使用到的,就取消下面的注释(还需下载core-js)
+            // {
+            //     "useBuiltIns": "usage",
+            //     "corejs": 3
+            // }
+        ]
+    ],
+    "plugins": [
+        "@babel/plugin-transform-runtime"
+    ]
+}
